@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-principal: hsl(47, 88%, 63%);
+    --color-bloque: hsl(0, 0%, 100%);
+    --color-texto: hsl(0, 0%, 42%);
+    --color-borde:hsl(0, 0%, 7%);
+    --letra: "Figtree", sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.bloque_principal {
+    height: 97%;
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-principal);
+}
+
+.articulo {
+    width: 18rem;
+    background-color: var(--color-bloque);
+    border: solid 1px var(--color-borde);
+    padding: 1rem;
+    border-radius: 20px;
+    margin: 1.5rem;
+    box-shadow: 6px 6px var(--color-borde);
+}
+
+.imagen {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 3%;
+}
+
+.titulo {
+    width: 44px;
+    background-color: var(--color-principal);
+    font-family: var(--letra);
+    font-weight: 800;
+    border-radius: 6px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.subtitulo {
+    font-family: var(--letra);
+    font-weight: 500;
+}
+
+h1 {
+    font-family: var(--letra);
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+p {
+    font-family: var(--letra);
+    font-size: 16px;
+    color: var(--color-texto);
+    font-weight: 500;
+    margin-right: 3%;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    font-family: var(--letra);
+    font-weight: 800;
+    margin-top: 5%;
+}
+
+.avatar {
+    width: 32px;
+    margin-right: 2%;
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center; 
+    font-family: var(--letra);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+}
